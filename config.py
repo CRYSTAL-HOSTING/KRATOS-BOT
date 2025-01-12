@@ -11,7 +11,7 @@ API_HASH = os.environ.get("API_HASH", "")
 
 
 OWNER_ID = int(os.environ.get("OWNER_ID", ""))
-DB_URL = os.environ.get("DB_URL", "")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://CrystalTelegramDB:CRYSTAL073@kratos-bot.fjpnr.mongodb.net/?retryWrites=true&w=majority&appName=Kratos-Bot")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 
