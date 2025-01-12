@@ -6,18 +6,17 @@ from logging.handlers import RotatingFileHandler
 
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-
+API_ID = int(os.environ.get("API_ID", "28585290"))
+API_HASH = os.environ.get("API_HASH", "7e250aaf4f19530d1debaebace4454bc")
 
 OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://CrystalTelegramDB:CRYSTAL073@kratos-bot.fjpnr.mongodb.net/?retryWrites=true&w=majority&appName=Kratos-Bot")
-DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
+DB_NAME = os.environ.get("DB_NAME", "CrystalTelegramDB1")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001947489886"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001216650755"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002250618520"))
 
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "600")) # auto delete in seconds
